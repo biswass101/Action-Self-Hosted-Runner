@@ -9,3 +9,5 @@ jobs:
             - name: hello-greet
               run: |
                 echo "Running from selft hosted runner"
+                node --version
+                npm --version
