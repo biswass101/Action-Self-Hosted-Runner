@@ -1,0 +1,11 @@
+name: run-on-seft-hosted-machine
+on:
+    push:
+        branches: [dev]
+jobs:
+    run-selft-hosted:
+        runs-on: maldini
+        steps:
+            - name: hello-greet
+              run: |
+                echo "Running from selft hosted runner"
